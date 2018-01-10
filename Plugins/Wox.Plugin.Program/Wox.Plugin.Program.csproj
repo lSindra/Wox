@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'debug wox|AnyCPU'">
+    <OutputPath>bin\debug wox\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AppxPackagingTlb">
       <HintPath>.\AppxPackagingTlb.dll</HintPath>
